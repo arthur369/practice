@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping https://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+    </configuration>
+    <mapping>
+        <class-a>generated_1522734615762.Stocktrading</class-a>
+        <class-b>org.blogdemo.example.TradeOrder</class-b>
+        <field>
+            <a>shares</a>
+            <b>shares</b>
+        </field>
+        <field>
+            <a>name</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>custId</a>
+            <b>custId</b>
+        </field>
+        <field>
+            <a>stockId</a>
+            <b>stockId</b>
+        </field>
+        <field>
+            <a>vip</a>
+            <b>vip</b>
+        </field>
+    </mapping>
+</mappings>

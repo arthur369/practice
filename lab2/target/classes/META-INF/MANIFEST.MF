@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1526456681454
+Build-Jdk: 9.0.1
+Built-By: Arthur
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [labtest]
+Bundle-SymbolicName: labtest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: generated_1522734615762;uses:="javax.xml.bind.annotation
+ ";version="1.0.0",org.blogdemo.example;uses:="javax.xml.bind.annotation
+ ";version="1.0.0"
+Import-Package: javax.xml.bind.annotation,org.osgi.service.blueprint;ver
+ sion="[1.0.0,2.0.0)",com.sun.el;version="[2,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
